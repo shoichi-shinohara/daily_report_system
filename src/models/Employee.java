@@ -103,7 +103,7 @@ public class Employee {
     public Timestamp getUpdated_at() {
         return updated_at;
     }
-    public void setUpdated_at(Timestamp updted_at){
+    public void setUpdated_at(Timestamp updated_at){
         this.updated_at = updated_at;
     }
 
