@@ -1,4 +1,4 @@
-package controllers.toppage;
+package controllers.topPage;
 
 import java.io.IOException;
 import java.util.List;
@@ -66,7 +66,7 @@ public class TopPageIndexServlet extends HttpServlet {
             request.getSession().removeAttribute("flush");
         }
 
-        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/toppage/index.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/topPage/index.jsp");
         rd.forward(request, response);
 	}
 
